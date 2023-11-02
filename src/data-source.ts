@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import "dotenv/config";
 
 export const db = {
-  uri: process.env.DB_URL_CLUSTER || "",
+  uri: process.env.DB_URL || "",
 };
 
 const options = {
